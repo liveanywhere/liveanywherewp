@@ -13,7 +13,11 @@
 	</form>
 </div>
 <?php elseif ( $type == 'spam-check' ) :?>
+<<<<<<< HEAD
 <div id="akismet-warning" class="updated fade">
+=======
+<div class="notice notice-warning">
+>>>>>>> 67e24a139f292afe95111f4286c33153416ca8c0
 	<p><strong><?php esc_html_e( 'Akismet has detected a problem.', 'akismet' );?></strong></p>
 	<p><?php printf( __( 'Some comments have not yet been checked for spam by Akismet. They have been temporarily held for moderation and will automatically be rechecked later.', 'akismet' ) ); ?></p>
 	<?php if ( $link_text ) { ?>

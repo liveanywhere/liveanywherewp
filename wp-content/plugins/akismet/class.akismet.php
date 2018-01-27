@@ -701,7 +701,17 @@ class Akismet {
 		foreach ( (array) $comment_errors as $comment_id ) {
 			// if the comment no longer exists, or is too old, remove the meta entry from the queue to avoid getting stuck
 			$comment = get_comment( $comment_id );
+<<<<<<< HEAD
 			if ( !$comment || strtotime( $comment->comment_date_gmt ) < strtotime( "-15 days" ) ) {
+=======
+
+			if (
+				! $comment // Comment has been deleted
+				|| strtotime( $comment->comment_date_gmt ) < strtotime( "-15 days" ) // Comment is too old.
+				|| $comment->comment_approved !== "0" // Comment is no longer in the Pending queue
+				) {
+				echo "Deleting";
+>>>>>>> 67e24a139f292afe95111f4286c33153416ca8c0
 				delete_comment_meta( $comment_id, 'akismet_error' );
 				delete_comment_meta( $comment_id, 'akismet_delayed_moderation_email' );
 				continue;
