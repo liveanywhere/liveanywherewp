@@ -35,7 +35,7 @@
             <div class="row mb-4 card-deck">
 
                <div class="card shadow border-light">
-                  <img class="card-img-top" src="wp-content/uploads/2018/01/house-four.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="<?php echo get_site_url(); ?>/wp-content/uploads/2018/01/house-four.jpg" alt="Card image cap">
                   <div class="card-body">
                      <h4 class="card-title">High Speed Internet</h4>
                      <p class="card-text">Whether you're a world traveler or entreprenuer reliable internet is no longer an issue.</p>
@@ -44,7 +44,7 @@
 
 
                <div class="card shadow border-light">
-                  <img class="card-img-top" src="wp-content/uploads/2018/01/house-two.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="<?php echo get_site_url(); ?>/wp-content/uploads/2018/01/house-two.jpg" alt="Card image cap">
                   <div class="card-body">
                      <h4 class="card-title">Community</h4>
                      <p class="card-text">Coliving and coworking is our mantra. Build lasting friendships within our housing network.</p>
@@ -52,7 +52,7 @@
                </div>
 
                <div class="card shadow border-light">
-                  <img class="card-img-top" src="wp-content/uploads/2018/01/house-five.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="<?php echo get_site_url(); ?>/wp-content/uploads/2018/01/house-five.jpg" alt="Card image cap">
                   <div class="card-body">
                      <h4 class="card-title">Furnished Housing</h4>
                      <p class="card-text">Stop worrying about moving furniture and large items place to place. Live out of your backpack.</p>
@@ -63,7 +63,7 @@
             <div class="row card-deck">
 
                <div class="card shadow border-light">
-                  <img class="card-img-top" src="wp-content/uploads/2018/01/house-three.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="<?php echo get_site_url(); ?>/wp-content/uploads/2018/01/house-three.jpg" alt="Card image cap">
                   <div class="card-body">
                      <h4 class="card-title">Subscription Based</h4>
                      <p class="card-text">We keep it simple. We charge the same rate across the board so you can set it once and forget it.</p>
@@ -72,7 +72,7 @@
 
 
                <div class="card shadow border-light">
-                  <img class="card-img-top" src="wp-content/uploads/2018/01/workspace-one.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="<?php echo get_site_url(); ?>/wp-content/uploads/2018/01/workspace-one.jpg" alt="Card image cap">
                   <div class="card-body">
                      <h4 class="card-title">Co-work friendly</h4>
                      <p class="card-text">We provide shared spaces in each location to help engage with others from around the globe.</p>
@@ -80,7 +80,7 @@
                </div>
 
                <div class="card shadow border-light">
-                  <img class="card-img-top" src="wp-content/uploads/2018/01/cowork-two.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="<?php echo get_site_url(); ?>/wp-content/uploads/2018/01/cowork-two.jpg" alt="Card image cap">
                   <div class="card-body">
                      <h4 class="card-title">Consistent Experience</h4>
                      <p class="card-text">Through our partnerships we are able to provide a pleasent experience no matter which location you are at.</p>
@@ -94,7 +94,7 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-5  offset-sm-1">
-                  <img src="wp-content/uploads/2018/01/cowork-one.jpg" alt="our credo" class="img-fluid rounded border-light">
+                  <img src="<?php echo get_site_url(); ?>/wp-content/uploads/2018/01/cowork-one.jpg" alt="our credo" class="img-fluid rounded border-light">
                </div>
                <div class="col-sm-5">
 
