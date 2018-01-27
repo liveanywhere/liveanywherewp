@@ -1,0 +1,250 @@
+.navbar.fixed-top {
+   position: absolute;
+}
+.starter-template {
+   top: calc(50% - 90px);
+   text-align: center;
+   position: relative;
+}
+body {
+   font-family: 'Source Sans Pro', sans-serif;
+   color: #555;
+   font-size: 20px;
+   line-height: 1.4;
+}
+h1, h2, h3, h4, h5 {
+   font-family: 'Playfair Display', serif;
+   /*text-transform: uppercase;*/
+   letter-spacing: 1px;
+}
+
+a, a:visited {
+   color: #0a2263;
+   opacity: 1;
+   transition: opacity 250ms ease;
+   text-decoration: none;
+}
+
+a:hover, a:focus {
+   opacity: .7;
+   text-decoration: none;
+}
+
+.footer .fa {
+   width: 25px;
+}
+
+.shadow {
+   box-shadow: 0 5px 11px -6px rgba(0, 0, 0, .1);
+}
+.border-light {
+   border: 1px solid #f3f3f3;
+}
+.page-header {
+   background: url(wp-content/uploads/2018/01/house-one.jpg) bottom center / cover no-repeat;
+   position: relative;
+   height: 100vh;
+   background-attachment: fixed;
+}
+.page-header:before {
+   content: '';
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   display: block;
+   width: 100%;
+   left: 0;
+   background: rgba(255, 255, 255, .85);
+}
+
+
+.card-features {
+   padding: 3rem 1rem;
+}
+.cta-bottom {
+   background: #333 url(wp-content/uploads/2018/01/workspace-two.jpg) center / cover no-repeat;
+   position: relative;
+   padding: 8rem 1rem;
+   background-attachment: fixed !important;
+   background-blend-mode: luminosity;
+}
+.cta-bottom h2 {
+   font-size: 2.6rem;
+}
+.footer {
+   background: #009688;
+   color: #fff;
+}
+
+.footer h3 {
+   font-family: 'Source Sans Pro', sans-serif;
+text-transform: uppercase;
+font-size: 1rem;
+}
+
+.footer p {
+   font-size: 14px;
+   line-height: 1.5;
+   font-weight: 300;
+letter-spacing: 1px;
+   margin-bottom: .5rem;
+}
+.footer-contact .fa {
+   color: #555;
+}
+.footer-bottom {
+   background: rgba(51, 51, 51, 0.08);
+}
+input, #mc-embedded-subscribe {
+   border: 0;
+   line-height: 1.5;
+   padding: .5rem;
+   float: left;
+}
+#mc-embedded-subscribe, .gform_button.button {
+   background: #0a2263;
+   color: #fff;
+   cursor: pointer;
+   padding: 0.5rem 1rem;
+   border-top-right-radius: 2px;
+   border-bottom-right-radius: 2px;
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;
+   opacity: 1;
+   transition: background 250ms ease;
+}
+
+#mc-embedded-subscribe:hover, , .gform_button.button:hover {
+   background: #0f3290;
+   /*opacity: .7;*/
+}
+
+input {
+   background: #fff;
+   box-shadow: 0 5px 11px -6px rgba(0, 0, 0, .1);
+   border-top-left-radius: 2px;
+   border-bottom-left-radius: 2px;
+}
+#mc_embed_signup {
+   min-width: 385px;
+   margin: 0 auto;
+   text-align: center;
+   display: inline-block;
+
+}
+
+
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+}
+.icon-scroll {
+  width: 30px;
+  height: 60px;
+  margin-left: -15px;
+  bottom: 1rem;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 1px #999;
+  border-radius: 25px;
+}
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #999;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+          animation-name: scroll;
+}
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(35px);
+            transform: translateY(35px);
+  }
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(35px);
+            transform: translateY(35px);
+  }
+}
+
+.btn-outline-primary {
+   color: #0a2263;
+   border-color: #0a2263;
+   border-radius: 2px;
+   border-width: 2px;
+   text-transform: uppercase;
+   font-size: 1.2rem;
+   letter-spacing: 2px;
+   padding: .5rem 3rem;
+   cursor: pointer;
+}
+
+.btn-outline-primary:hover {
+   background-color: #0a2263;
+   border-color: #0a2263;
+}
+
+.modal-content {
+   border-radius: 3px;
+   .gfield_label {
+      display: none !important;
+   }
+}
+.modal-header {
+   border: 0;
+}
+.modal-content input.email {
+   border: 1px solid #eee;
+}
+
+.modal-backdrop {
+   background-color: #fff;
+}
+
+.modal-content p {
+   font-size: 18px;
+}
+
+
+.modal-backdrop:show {
+   opacity: .85;
+}
+
+
+@media (max-width: 768px) {
+   .page-header {
+      height: 60vh;
+   }
+   h1 {
+      font-size: 2rem;
+   }
+}
+
+
+.newsletter-box {
+   padding: 2rem;
+   background: rgba(255, 255, 255, .8);
+   max-width: 55ch;
+   border-radius: 2px;
+}
+
+.main-body-text {
+   max-width: 85ch;
+}
